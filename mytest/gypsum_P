@@ -30,7 +30,7 @@ USER_GRAPH
 USER_GRAPH 2 apparent log_k of CaSO4 complex
  -headings p
  -axis_titles "Pressure / atm" "log10 (K)"
- -axis_scale y_axis 2 2.5
+ #-axis_scale y_axis 2 2.5
  10 graph_x pressure
  20 graph_y log10(act("CaSO4") / (act("Ca+2") * act("SO4-2")))
 END
